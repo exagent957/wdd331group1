@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link
-      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Merriweather" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="scss/style-guide.scss" />
+    <link rel="stylesheet" href="/index.HASH_REF_0d8524a15cd50b7f068fb1cefd58574d.css">
     <!-- Resource style -->
-    <script src="js/modernizr.js"></script>
+    <script src="/index.HASH_REF_d1d6d1f9d6c205aa98cd1216aaafe13f.js"></script>
     <!-- Modernizr -->
     <title>Group 1 Style Guide</title>
   </head>
   <body>
     <header>
-      <div class="cd-logo"><img src="assets/logo.svg" alt="Logo" /></div>
+      <div class="cd-logo"><img src="/logo.HASH_REF_e9bef47016e29016e411f31c272a18c5.svg" alt="Logo"></div>
 
       <nav>
         <ul class="cd-main-nav">
@@ -31,9 +27,7 @@
         <!-- cd-main-nav -->
       </nav>
 
-      <a href="assets/assets-download-file.zip" class="cd-download"
-        ><span>Download assets</span></a
-      >
+      <a href="/assets/assets-download-file.zip" class="cd-download"><span>Download assets</span></a>
       <a href="#0" class="cd-nav-trigger">Menu<span></span></a>
     </header>
 
@@ -51,22 +45,22 @@
 
         <ul>
           <li class="cd-box">
-            <img src="assets/branding/logo-ver-1.jpg" alt="Logo version 1" />
+            <img src="/logo-ver-1.HASH_REF_c7ae132189b9f66f1d4670d26d6fa671.jpg" alt="Logo version 1">
           </li>
           <li class="cd-box">
-            <img src="assets/branding/logo-ver-2.jpg" alt="Logo version 2" />
+            <img src="/logo-ver-2.HASH_REF_019ee1b5b140ff3e2052d458ab867eea.jpg" alt="Logo version 2">
           </li>
         </ul>
 
         <ul>
           <li>
-            <img src="assets/branding/touch-icon-1.jpg" alt="Touch Icon 1" />
+            <img src="/touch-icon-1.HASH_REF_e12ebda1963574d3bfe92694f2c015bb.jpg" alt="Touch Icon 1">
           </li>
           <li>
-            <img src="assets/branding/touch-icon-2.jpg" alt="Touch Icon 2" />
+            <img src="/touch-icon-2.HASH_REF_2d6ce8e8d7e66236180526933c99b21c.jpg" alt="Touch Icon 2">
           </li>
-          <li><img src="assets/branding/favicon-1.jpg" alt="Favicon 1" /></li>
-          <li><img src="assets/branding/favicon-2.jpg" alt="Favicon 2" /></li>
+          <li><img src="/favicon-1.HASH_REF_683b91caa2027178adbbb8a67de86ebc.jpg" alt="Favicon 1"></li>
+          <li><img src="/favicon-2.HASH_REF_5c846f0942b0468ac61e965158cfd2f7.jpg" alt="Favicon 2"></li>
         </ul>
       </section>
 
@@ -166,16 +160,16 @@
         <h2>Wireframes</h2>
         <div class="cd-box">
           <figure>
-            <img src="assets/iphonese.jpg" alt="Small screen wireframe" />
+            <img src="/iphonese.HASH_REF_0af685a5196925d36d5a08a0b550768d.jpg" alt="Small screen wireframe">
             <figcaption>Small screen</figcaption>
           </figure>
           <figure>
-            <img src="assets/desktop.jpg" alt="Large screen wireframe" />
+            <img src="/desktop.HASH_REF_fcdc4856557ee1ff618fcc883d80ac7b.jpg" alt="Large screen wireframe">
             <figcaption>Large screen</figcaption>
           </figure>
         </div>
       </section>
     </main>
-    <script src="js/main.js"></script>
+    <script src="/index.HASH_REF_9c44180a18ad66eda0f30d699626f0bb.js"></script>
   </body>
 </html>
