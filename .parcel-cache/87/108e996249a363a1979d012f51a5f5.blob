@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.google.com/specimen/Rye?query=rye#standard-styles");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -59,7 +60,7 @@ xTypography
 -------------------------------- */
 h1,
 h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rye", sans-serif;
   color: #77867f;
 }
 
@@ -238,7 +239,7 @@ xButtons
   box-shadow: none;
   border-radius: 0.25em;
   font-size: 1.4rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rye", sans-serif;
   color: #ffffff;
   padding: 0.6em 2.2em;
   cursor: pointer;
