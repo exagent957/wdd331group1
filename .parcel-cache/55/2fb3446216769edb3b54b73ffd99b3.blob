@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 @import url("https://fonts.google.com/specimen/Rye?query=rye#standard-styles");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,8 +54,8 @@ xTypography
 -------------------------------- */
 h1,
 h2 {
-  font-family: "Rye", sans-serif;
-  color: #77867f;
+  font-family: "rye", cursive;
+  color: #002e2c;
 }
 h1 {
   font-size: 2.4rem;
@@ -90,7 +91,7 @@ section > h2::before {
 p {
   font-size: 1.4rem;
   line-height: 1.4;
-  color: #bac2bf;
+  color: #002e2c;
 }
 p a {
   color: #60463b;
@@ -142,57 +143,14 @@ header {
     width: 180px;
   }
 }
-.cd-main-nav {
-  /* main navigation background color - full screen on small devices */
-  background: #77867f;
+a {
+  color: #002e2c;
 }
-.cd-main-nav li a {
-  color: #ffffff;
-  border-color: #84928c;
+a:hover {
+  color: #ddd78d;
 }
-@media only screen and (min-width: 1024px) {
-  .cd-main-nav li a {
-    color: #e3e6e5;
-  }
-  .cd-main-nav li a.selected {
-    color: #ffffff;
-    box-shadow: 0 2px 0 #60463b;
-  }
-  .cd-main-nav li a:hover {
-    color: #ffffff;
-  }
-}
-.cd-nav-trigger span {
-  /* hamburger menu */
-  background-color: #ffffff;
-}
-.cd-nav-trigger span::before, .cd-nav-trigger span::after {
-  /* upper and lower lines */
-  background-color: #ffffff;
-}
-.nav-is-visible .cd-nav-trigger span {
-  /* hide line in the center on mobile when nav is visible */
-  background-color: rgba(255, 255, 255, 0);
-}
-.nav-is-visible .cd-nav-trigger span::before, .nav-is-visible .cd-nav-trigger span::after {
-  /* preserve visibility of upper and lower lines - close icon */
-  background-color: white;
-}
-.cd-download {
-  /* download button top-right visible on big devices */
-  background-color: #929e98;
-}
-.no-touch .cd-download:hover {
-  background-color: #9faaa5;
-}
-.cd-download span {
-  /* tooltip */
-  background: #60463b;
-  color: #ffffff;
-}
-.cd-download span::before {
-  /* right arrow color */
-  border-color: #60463b;
+a :hover {
+  color: #ddd78d;
 }
 /* -------------------------------- 
 
@@ -218,7 +176,7 @@ xButtons
   box-shadow: none;
   border-radius: 0.25em;
   font-size: 1.4rem;
-  font-family: "Rye", sans-serif;
+  font-family: "rye", cursive;
   color: #ffffff;
   padding: 0.6em 2.2em;
   cursor: pointer;
@@ -284,7 +242,7 @@ html {
 }
 body {
   font-size: 1.6rem;
-  font-family: "Merriweather", serif;
+  font-family: "Alegreya Sans SC", sans-serif;
 }
 a {
   text-decoration: none;
@@ -293,7 +251,7 @@ img {
   max-width: 100%;
 }
 input, textarea, select {
-  font-family: "Merriweather", serif;
+  font-family: "Alegreya Sans SC", sans-serif;
   font-size: 1.6rem;
 }
 header {
